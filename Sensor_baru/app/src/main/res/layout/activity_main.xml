@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Intensitas Cahaya"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/txCahaya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="-"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/bt_Start"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Start"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/bt_Stop"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Stop"
+        android:textSize="30dp" />
+
+</LinearLayout>
